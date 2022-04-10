@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
 link = input('Podaj sciezke do zdjęcia: ').replace('\"', '')
 print(link)
