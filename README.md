@@ -2,13 +2,15 @@
 Required libraries:
 - numpy
 - opencv-python
+- PyQt5
 
-After starting the program, enter the path to a photo and you can click on the photo to select foreground and background area.
+Program opens 2 windows. In first window you select area to stay / delete. In second windows you can select gamma correction for increase contrast to make the background whiter and the foreground blacker for easier editing.
 
 Keyboard shortcurs:
 - '1' - color blue - Area to remain
 - '2' - color red - Background area to be removed
-- 's' - save - It saves the photo without background with the new name that looks like: "new_" + old_name. Takes you to the newly changed photo.
+- 's' - finished photo - Takes you to the newly changed photo.
+- 's' - save - If you see finished photo the save window will open.
 - 'e' - edit - Takes you back to photo editing.
 - 'r' - reset - Deletes all changes and you start from the begin.
 - 'esc; - exit - It closes the application.
